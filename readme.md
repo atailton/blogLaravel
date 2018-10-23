@@ -86,3 +86,6 @@ php artisan app:name estoque
 
 ## LIMPAR CACHE
 php artisan config:cache
+
+UPLOAD FILE WITH LARAVEL
+https://blog.especializati.com.br/upload-de-arquivos-no-laravel-com-request/
