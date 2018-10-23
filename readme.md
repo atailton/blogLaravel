@@ -56,3 +56,33 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## RUN AND CHOOSE A PORT
+php artisan serve --port=2000
+
+## CREATE A NEW MODEL WITH MIGRATION
+php artisan make:model NAME -m
+
+## CREATE A NEW CONTROLLER
+php artisan make:controller NAME
+
+## EXECUTE MIGRATION TO CREATE DATABASE TABLES
+php artisan migrate
+
+## INSTALL GLOBAL LARAVEL INSTALLER
+composer global require "laravel/installer"
+
+## CREATE A NEW PROJECT LARAVEL
+laravel new NAME
+
+## CREATE A NEW PROJECT WITH COMPOSER
+composer create-project --prefer-dist laravel/laravel NAME
+
+## ACTIVE LOGIN/REGISTER
+php artisan make:auth
+
+## CHANGE NAMESPACE
+php artisan app:name estoque
+
+## LIMPAR CACHE
+php artisan config:cache
